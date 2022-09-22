@@ -302,7 +302,6 @@
 
 .footer__columns {
   display: flex;
-  justify-content: center;
   flex-direction: row;
   justify-content: space-between;
   width: 90%;
@@ -310,7 +309,7 @@
 
 .footer__column {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 
 .footer__column_content_copyright {
