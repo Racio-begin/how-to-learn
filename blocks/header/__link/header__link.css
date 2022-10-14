@@ -1,0 +1,4 @@
+.header__link {
+  text-decoration: none; /* убираю стандартное подчёркивание ссылки*/
+  color: #2f80ed;
+}
