@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-  <link rel="stylesheet" href="green-line.css">
+  <!--               Для отладки
+     <link rel="stylesheet" href="./vendor/green-line.css"> -->
   <title>Научиться учиться</title>
 </head>
 <body class="page">
@@ -13,7 +14,7 @@
       <img src="./images/logo_place_header.svg" class="logo logo_place_header" alt="Яндекс Практикум">
       <p
         class="header__subtitle">Какие современные и эффективные подходы к обучению вы
-        можете использовать в своей жизни?<a href="#" class="header__link"> Узнать &rarr;</a>
+        можете использовать в своей жизни?<a href="#" class="header__link link"> Узнать &rarr;</a>
       </p>
       <img src="./images/header-image.png" class="header__main-illustration" alt='Картина Решетникова "Опять двойка!"'>
       <div class="header__square-pic"></div>
@@ -44,47 +45,47 @@
     </section>
 
     <section class="techniques">
-      <h2 class="section-title green-line">Техники обучения</h2>
-      <p class="section-subtitle green-line">Пять практик от Барбары Оакли</p>
-        <div class="cards green-line">
-          <div class="cards__item green-line">
-            <img src="/images/cards-attention.png" alt="Два вида внимания" class="cards__image green-line">
-            <h3 class="cards__title green-line">Два вида внимания</h3>
-            <p class="cards__description green-line">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+      <h2 class="section-title">Техники обучения</h2>
+      <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+        <div class="cards">
+          <div class="cards__item">
+            <img src="/images/cards-attention.png" alt="Белая книга в руках" class="cards__image">
+            <h3 class="cards__title">Два вида внимания</h3>
+            <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
           </div>
-          <div class="cards__item green-line">
-            <img src="/images/cards-recall.png" alt="Recall" class="cards__image green-line">
-            <h3 class="cards__title green-line">Recall</h3>
-            <p class="cards__description green-line">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+          <div class="cards__item">
+            <img src="/images/cards-recall.png" alt="Статуя в музее" class="cards__image">
+            <h3 class="cards__title">Recall</h3>
+            <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
           </div>
-          <div class="cards__item green-line">
-            <img src="/images/cards-interliving.png" alt="Интерливинг" class="cards__image green-line">
-            <h3 class="cards__title green-line">Интерливинг</h3>
-            <p class="cards__description green-line">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+          <div class="cards__item">
+            <img src="/images/cards-interliving.png" alt="Холл с людьми" class="cards__image">
+            <h3 class="cards__title">Интерливинг</h3>
+            <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </div>
-          <div class="cards__item green-line">
-            <img src="/images/cards-question.png" alt="Вопросы" class="cards__image green-line">
-            <h3 class="cards__title green-line">Вопросы</h3>
-            <p class="cards__description green-line">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+          <div class="cards__item">
+            <img src="/images/cards-question.png" alt="Большая белая комната с окнами" class="cards__image">
+            <h3 class="cards__title">Вопросы</h3>
+            <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
           </div>
-          <div class="cards__item green-line">
-            <img src="/images/cards-competence.png" alt="Иллюзия компетентности" class="cards__image green-line">
-            <h3 class="cards__title green-line">Иллюзия компетентности</h3>
-            <p class="cards__description green-line">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+          <div class="cards__item">
+            <img src="/images/cards-competence.png" alt="Стопка книг на руке" class="cards__image">
+            <h3 class="cards__title">Иллюзия компетентности</h3>
+            <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
           </div>
         </div>
     </section>
 
-    <section class="video green-line">
-      <h2 class="section-title green-line">Видео нa TED</h2>
-      <p class="section-subtitle green-line">Для тех, кто любит прокрастинировать</p>
-      <div class="video__iframes green-line">
-        <div class="video__iframe green-line">
+    <section class="video">
+      <h2 class="section-title">Видео нa TED</h2>
+      <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
+      <div class="video__iframes">
+        <div class="video__iframe">
           <iframe id="ytplayer" type="text/html" width="515" height="316"
           src="https://www.youtube.com/embed/5MgBikgcWnY"
           frameborder="0" allowfullscreen></iframe>
         </div>
-        <div class="video__iframe green-line">
+        <div class="video__iframe">
           <iframe id="ytplayer" type="text/html" width="515" height="316"
           src="https://www.youtube.com/embed/arj7oStGLkU"
           frameborder="0" allowfullscreen></iframe>
@@ -92,7 +93,7 @@
       </div>
     </section>
 
-    <section class="oakley green-line">
+    <section class="oakley">
       <div class="two-columns">
         <div class="two-columns__brief">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
@@ -111,7 +112,7 @@
       <div class="feynman__feynman-pic"></div>
       <h2 class="feynman__title">Метод Фейнмана</h2>
       <p class="feynman__subtitle">Выучить и не забыть.</p>
-      <a href="#" class="feynman__link">Подробнее &rarr;</a>
+      <a href="#" class="feynman__link link">Подробнее &rarr;</a>
     </section>
 
     <section class="digits">
@@ -156,19 +157,19 @@
     </section>
 
     <section class="khan">
-      <div class="khan__container green-line">
-        <div class="khan__author green-line">Салман Хан</div>
-        <h2 class="khan__title green-line">Весь мир — школа</h2>
-        <div class="khan__quote green-line">
+      <div class="khan__container">
+        <div class="khan__author">Салман Хан</div>
+        <h2 class="khan__title">Весь мир — школа</h2>
+        <div class="khan__quote">
           <p>Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем,
           кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
         </div>
-        <div class="khan__quote-author green-line">Джордж Лукас</div>
-        <div class="khan__quote-author-subline green-line">Кинорежиссер, продюсер</div>
-        <div class="khan__book-container green-line">
-          <img class="khan__book-pic green-line" src="images/khan-book.jpg" alt="книга 'Весь мир - школа'">
+        <div class="khan__quote-author">Джордж Лукас</div>
+        <div class="khan__quote-author-subline">Кинорежиссер, продюсер</div>
+        <div class="khan__book-container">
+          <img class="khan__book-pic" src="images/khan-book.jpg" alt="книга Салмана Хана 'Весь мир - школа'">
           <div>
-            <a href="#" class="khan__buy-link green-line">Купить книгу &rarr;</a>
+            <a href="#" class="khan__buy-link link">Купить книгу &rarr;</a>
           </div>
         </div>
       </div>
@@ -223,19 +224,19 @@
     </section>
 
     <section class="resources">
-      <h2 class="section-title green-line">Полезные ресурсы</h2>
-      <p class="section-subtitle green-line">Больше материалов о техниках и лайфхаках обучения</p>
+      <h2 class="section-title">Полезные ресурсы</h2>
+      <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
       <div class="resources__logo-zone">
-        <a class="resources__link" href="#">
+        <a class="resources__link link" href="#">
           <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="ресурс 'арзамас'">
         </a>
-        <a class="resources__link" href="#">
+        <a class="resources__link link" href="#">
           <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="ресурс 'н+1'">
         </a>
-        <a class="resources__link" href="#">
+        <a class="resources__link link" href="#">
           <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="ресурс 'стрелка'">
         </a>
-        <a class="resources__link" href="#">
+        <a class="resources__link link" href="#">
           <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="ресурс 'полка'">
         </a>
       </div>
@@ -251,24 +252,24 @@
       <div class="footer__column footer__column_content_info">
         <h2 class="footer__column footer__column-heading">О Практикуме</h2>
         <nav class="footer__column-links">
-          <a href="#" class="footer__column-link">Главная</a>
-          <a href="#" class="footer__column-link">Концепция</a>
-          <a href="#" class="footer__column-link">Наставники</a>
+          <a href="#" class="footer__column-link link">Главная</a>
+          <a href="#" class="footer__column-link link">Концепция</a>
+          <a href="#" class="footer__column-link link">Наставники</a>
         </nav>
       </div>
       <div class="footer__column footer__column_content_social">
         <h2 class="footer__column-heading">Соцсети</h2>
         <nav class="footer__column-links">
           <a
-            href="#" class="footer__column-link"><img src="./images/facebook_color_white.svg"
+            href="#" class="footer__column-link link"><img src="./images/facebook_color_white.svg"
             class="footer__social-icon" lang="en" alt="Facebook">Facebook
           </a>
           <a
-            href="#" class="footer__column-link"><img src="./images/vk_color_white.svg"
+            href="#" class="footer__column-link link"><img src="./images/vk_color_white.svg"
             class="footer__social-icon" alt="Вконтакте">Вконтакте
           </a>
           <a
-            href="#" class="footer__column-link"><img src="./images/instagram_color_white.svg"
+            href="#" class="footer__column-link link"><img src="./images/instagram_color_white.svg"
             class="footer__social-icon" lang="en" alt="Instagram">Instagram
           </a>
           <!-- «Инстаграм» — организация, запрещенная на территории РФ  -->
