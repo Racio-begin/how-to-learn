@@ -3,7 +3,6 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   min-width: 784px;
-  max-width: 1200px;
   width: 80%;
   row-gap: 30px;
 }
